@@ -1,3 +1,3 @@
 FROM sentry:8
 
-CMD 'sentry upgrade --no-input && sentry run web'
+CMD ["upgrade", "--no-input","&","run", "web"]
