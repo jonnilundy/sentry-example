@@ -1,3 +1,3 @@
 FROM sentry:8
 
-CMD ["sentry", "celery", "beat"]
+CMD ["sentry", "run", "cron"]
