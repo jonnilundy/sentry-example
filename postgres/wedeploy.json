@@ -1,3 +1,4 @@
 {
-  "id": "postgres"
+  "id": "postgres",
+  "port": 5432
 }
