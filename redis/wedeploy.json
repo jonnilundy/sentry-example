@@ -1,3 +1,4 @@
 {
-  "id": "redis"
+  "id": "redis",
+  "image": "redis:3.2"
 }

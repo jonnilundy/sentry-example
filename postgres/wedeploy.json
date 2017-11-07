@@ -1,6 +1,8 @@
 {
   "id": "postgres",
   "volume": "/data/postgres/data",
+  "zeroDowntime": false,
+  "image": "postgres:10",
   "env": {
     "POSTGRES_DB": "sentry",
     "POSTGRES_USER": "sentry",

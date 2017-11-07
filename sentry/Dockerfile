@@ -1,4 +1,4 @@
-FROM sentry:latest
+FROM sentry:8
 
 ENTRYPOINT ["/bin/bash","-c"]
 

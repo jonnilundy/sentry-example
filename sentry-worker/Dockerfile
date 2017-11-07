@@ -1,3 +1,3 @@
-FROM sentry:latest
+FROM sentry:8
 
 CMD ["run", "worker"]

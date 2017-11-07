@@ -1,7 +1,7 @@
 {
   "id": "sentry",
   "memory": 2048,
-  "cpu": 4,
+  "cpu": 2,
   "env": {
     "SENTRY_INITIAL_USER_EMAIL": "admin@mydomain.com",
     "SENTRY_INITIAL_USER_PASSWORD": "supers3cr3t",
