@@ -1,3 +1,16 @@
 {
-  "id": "sentry"
+  "id": "sentry",
+  "memory": 2048,
+  "cpu": 4,
+  "env": {
+    "SENTRY_INITIAL_USER_EMAIL": "admin@mydomain.com",
+    "SENTRY_INITIAL_USER_PASSWORD": "supers3cr3t",
+    "SENTRY_SECRET_KEY": "2f4#1@2tjk8v)wiloygj@m5)16&7qu+9vy47hs2l&gl%u@qd)(",
+    "SENTRY_SERVER_EMAIL": "sentry_server_email",
+    "SENTRY_POSTGRES_HOST": "postgres",
+    "SENTRY_DB_NAME": "sentry",
+    "SENTRY_DB_USER": "sentry",
+    "SENTRY_DB_PASSWORD": "supers3cr3t",
+    "SENTRY_REDIS_HOST": "redis"
+  }
 }

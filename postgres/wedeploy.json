@@ -1,4 +1,10 @@
 {
   "id": "postgres",
-  "port": 5432
+  "volume": "/data/postgres/data",
+  "env": {
+    "POSTGRES_DB": "sentry",
+    "POSTGRES_USER": "sentry",
+    "POSTGRES_PASSWORD": "supers3cr3t",
+    "PGDATA": "/data/postgres/data"
+  }
 }

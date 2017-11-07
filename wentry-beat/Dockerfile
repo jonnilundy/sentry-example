@@ -1,3 +1,3 @@
-FROM sentry:8
+FROM sentry:latest
 
 CMD ["sentry", "run", "cron"]
