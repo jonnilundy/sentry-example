@@ -1,5 +1,7 @@
 {
   "id": "beat",
+  "scale": 2,
+  "dependencies": ["postgres", "redis", "sentry"],
   "env": {
     "SENTRY_SECRET_KEY": "2f4#1@2tjk8v)wiloygj@m5)16&7qu+9vy47hs2l&gl%u@qd)(",
     "SENTRY_SERVER_EMAIL": "sentry_server_email",
