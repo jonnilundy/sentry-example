@@ -1,6 +1,6 @@
 # Sentry [![Badge](https://img.shields.io/badge/built%20with-wedeploy-00d46a.svg?style=flat)](http://wedeploy.com)
 
-A demo of [Sentry](https://hub.docker.com/_/sentry/), [Postgres](https://hub.docker.com/_/postgres/), and [Redis](https://hub.docker.com/_/redis/) on [WeDeploy](https://wedeploy.com/).
+An example of [Sentry](https://hub.docker.com/_/sentry/), [Postgres](https://hub.docker.com/_/postgres/), and [Redis](https://hub.docker.com/_/redis/) on [WeDeploy](https://wedeploy.com/).
 
 ## Instructions
 
