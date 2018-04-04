@@ -1,6 +1,10 @@
 {
   "id": "worker",
+  "image": "sentry:8.22.0",
   "scale": 2,
+  "cpu": 0.3,
+  "memory": 500,
+  "command": ["sentry", "run", "worker"],
   "dependencies": ["postgres", "redis", "sentry"],
   "env": {
     "SENTRY_SECRET_KEY": "2f4#1@2tjk8v)wiloygj@m5)16&7qu+9vy47hs2l&gl%u@qd)(",
@@ -9,6 +13,7 @@
     "SENTRY_DB_NAME": "sentry",
     "SENTRY_DB_USER": "sentry",
     "SENTRY_DB_PASSWORD": "supers3cr3t",
-    "SENTRY_REDIS_HOST": "redis"
+    "SENTRY_REDIS_HOST": "redis",
+    "C_FORCE_ROOT": "true"
   }
 }

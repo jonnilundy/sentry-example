@@ -4,6 +4,13 @@
   "cpu": 2,
   "scale": 1,
   "dependencies": ["postgres", "redis"],
+  "healthCheck": {
+    "url": "0.0.0.0:9000/_health/",
+    "interval": 5,
+    "timeout": 10,
+    "startPeriod": 60,
+    "retries": 10
+  },
   "env": {
     "SENTRY_INITIAL_USER_EMAIL": "admin@mydomain.com",
     "SENTRY_INITIAL_USER_PASSWORD": "supers3cr3t",

@@ -1,4 +1,8 @@
-FROM sentry:8
+FROM sentry:8.22.0
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        curl \
+&& rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["/bin/bash","-c"]
 

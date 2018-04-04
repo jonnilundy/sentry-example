@@ -1,6 +1,10 @@
 {
-  "id": "beat",
-  "scale": 2,
+  "id": "cron",
+  "image": "sentry:8.22.0",
+  "scale": 1,
+  "cpu": 0.2,
+  "memory": 200,
+  "command": ["sentry", "run", "cron"],
   "dependencies": ["postgres", "redis", "sentry"],
   "env": {
     "SENTRY_SECRET_KEY": "2f4#1@2tjk8v)wiloygj@m5)16&7qu+9vy47hs2l&gl%u@qd)(",
